@@ -29,7 +29,7 @@ class MyButton : AppCompatButton {
         setTextColor(txtColor)
         textSize = 12f
         gravity = Gravity.CENTER
-        text = if (isEnabled) "submit" else "Isi Dulu"
+        text = if (isEnabled) "Kirim Pesan" else "Isi Dulu"
     }
 
     override fun onAttachedToWindow() {
